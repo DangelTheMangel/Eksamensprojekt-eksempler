@@ -1,1 +1,26 @@
+//forgrener- når koden forgrener sig fx når man bruger else
+void setup() {
+  size(500, 500);
+  frameRate(2);
+}
+
+void draw() {
+  clear();
+  for (int x = 0; x<50; x++) {
+
+    for (int y = 0; y<50; y++) {
+      fill(100+x, 100+y, 255-x-y);
+      //denne laver et tilfældig tal fra 0 til 1 og vis den er under 0.3 så laver den en ellipse ellers forgrænere den sig
+      if (random(0, 1)< 0.3) {
+        ellipse(x*10, y*10, 10, 10);
+      } else {
+        rect(x*10, y*10, 10, 10);
+        //vi kan også bruge funktionerne break eller contiune til dette
+        break;
+      }
+      
+      
+    }
+  }
+}
 
