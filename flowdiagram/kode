@@ -7,11 +7,11 @@ ThomasFredfeldt = "Meget Lækker";
 //Hvis man lavede et simpelt flowdiagram over den her process, kunne det se sådan her ud.
 
 -----------------------------
-|ThomasFredtfeldt = "Lækker"|
+|ThomasFredfeldt = "Lækker"|
 -----------------------------
               V
 ----------------------------------
-|ThomasFredtfeldt = "MegetLækker"|
+|ThomasFredfeldt = "MegetLækker"|
 ----------------------------------
 
 //Et flowdiagram er meget fleksibelt, og der er ikke rigtigt nogen regler for det.
