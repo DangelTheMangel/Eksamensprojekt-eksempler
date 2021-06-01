@@ -1,1 +1,43 @@
 
+/*
+Java-variabler
+Variabler er containere til lagring af dataværdier.
+
+I Java er der forskellige typer variabler, for eksempel:
+
+String- gemmer tekst, f.eks. "Hej". Strengværdier er omgivet af dobbelt anførselstegn
+int - gemmer heltal (heltal) uden decimaler, såsom 123 eller -123
+float - gemmer flydende numre med decimaler, f.eks. 19,99 eller -19,99
+char- gemmer enkelttegn, f.eks. 'a' eller 'B'. Char-værdier er omgivet af enkelt anførselstegn
+boolean - gemmer værdier med to tilstande: sand eller falsk
+
+
+Erklæring (oprettelse) af variabler
+For at oprette en variabel skal du angive typen og tildele den en værdi:
+
+*/
+
+type variable = value;
+
+/*
+Hvor type er en af Java's typer (såsom inteller String), og variabel er navnet på variablen (såsom x eller navn ). Den lighedstegn bruges til at tildele værdier til variablen.
+
+For at oprette en variabel, der skal gemme tekst, skal du se på følgende eksempel:
+*/
+
+String name = "John";
+System.out.println(name);
+
+//andre typer:
+
+int myNum = 5;
+float myFloatNum = 5.99f;
+char myLetter = 'D';
+boolean myBool = true;
+String myText = "Hello";
+
+
+//vis man bruger finallise kan man ikke ændre variabel igen
+
+final int myNum = 15;
+myNum = 20;  // will generate an error: cannot assign a value to a final variable
