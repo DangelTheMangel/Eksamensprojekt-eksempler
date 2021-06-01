@@ -1,1 +1,18 @@
 
+/*
+Funktion - et sæt instruktioner, der udfører en opgave.
+Metode - et sæt instruktioner, der er knyttet til et objekt.
+*/
+
+void ekesmpelFunktion(/*Dette er input-parametre altså det input man giver funktionen */Variabel variabel){
+// Dette er methoden kroppen hvor vi kan gøre noget med inputbaremeterne 
+}
+
+//vi kan også returner en type variabel fx boolean men så skal man erklare det som noget andet end void og den det man skal returner. i dette eksempel ville vi retuner Variabel
+
+Variabel eksempel(Variabel variabel){
+//gøre noget med input variabelen
+
+//her returner den variabel
+return variabel;
+}
