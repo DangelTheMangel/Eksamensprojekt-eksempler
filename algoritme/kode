@@ -1,39 +1,44 @@
 int antal = 4;
-ArrayList<Integer> ran = new ArrayList();
-void setup() {
-  makeList(ran,antal);
-  println("før: ");
-  printListe(ran);
-  println("efter: ");
-  ran = mySort(ran);
-  printListe(ran);
+ArrayList<Integer> ran = new ArrayList(); //ran er vores tilfældige arrayliste
+
+void setup() {                            //I setup sker kinda alt. Der sker intet i draw.
+  makeList(ran,antal);  //Den bruger makeList, for at lave listen
+  println("før: ");     //og printer den før del 1
+  printListe(ran);      //printer før del 2
+  println("efter: ");   //printer listen efter del 1
+  ran = mySort(ran);    //sorterer
+  printListe(ran);      //printer listen efter del 2
 }
 
-void draw() {
+void draw() { //som sagt sker der intet i draw. vi behøver den ikke. christian din buga brain du drak sikkert whiskey da du programmerede det her
 }
 
-public ArrayList<Integer> makeList(ArrayList<Integer> in,int o){
-  for(int i = 0; i<o+1;++i){
-    in.add((int) random(0,100));
+public ArrayList<Integer> makeList(ArrayList<Integer> in,int o){ //den her funktion laver en liste
+  for(int i = 0; i<o+1;++i){ //det her for loop kører "o" antal gange, og tilføjer et nummer til en liste der er "o" lang.
+    in.add((int) random(0,100)); //den tilføjer tilfældige int
   }
-  return in;
+  return in;//og her returner den det, ellers ville den bare lave en liste og ikke bruge den til noget.
 }
-void printListe(ArrayList<Integer> in){
+
+
+void printListe(ArrayList<Integer> in){//det her er bare en cool måde at printe en liste på. bruges i setup, så man kan se listen i output konsollen.
 for(int i = 0; i<in.size();++i){
     println(i+ " : " +in .get(i));
   }
 }
-public ArrayList<Integer> mySort(ArrayList<Integer> in) {
-  if (in.size() == 2) {
-    if(in.get(0) >  in.get(1)){
-      int biggest = in.get(0);
-      in.remove(0);
-      in.add(biggest);
+
+
+public ArrayList<Integer> mySort(ArrayList<Integer> in) { //det her er en funktion, der også er en arraylist.
+  if (in.size() == 2) {  //den her foolproofer at listen ikke bare er 2 tal. den er også en simpel version af sorteringen.
+    if(in.get(0) >  in.get(1)){ //hvis det første i arraylisten er større end det andet.
+      int biggest = in.get(0);  //biggest er et int, der specificeret det største. vigtigt fordi ellers det bare blive det laveste tal, se næste linje for forklaring.
+      in.remove(0);             //her fjerner det første i arraylisten, altså det største tal. det eksisterer ikke mere, og koden har ingen måde at få det tilbage på. derfor husker koden det i stedet i "biggest" intet.
+      in.add(biggest);          //så tilføjer den biggest tilbage i listen, og sådan sorterer man 2 tal.
     }
     
-    return in;
+    return in; //return så den ikke bare laver en sorteret liste og glemmer den.
   } else {
-    ArrayList<Integer> bagdel = new ArrayList();
+    ArrayList<Integer> bagdel = new ArrayList(); 
     bagdel.addAll(in);
     int hoved = bagdel.get(0);
     bagdel.remove(0);
