@@ -1,1 +1,15 @@
+//I programmering er der noget der hedder "reference" og "value"
+//De er begge to en måde at manipulere et objekt i koden på.
+//Forksellen er at value er når man tager værdierne i det objekt og gør ting med dem, og refernece er direkte i objektet at ting sker.
+//I Java kan man kun kalde value.
 
+//https://www.guru99.com/call-by-value-vs-call-by-reference.html
+
+
+int i = 1;
+println("dette er i før det bliver ændret: " + i);
+i = 2;
+println("dette er i efter det bliver ændret: " + i);
+
+//Her er noget kode. Det der sker er at variablet i bliver ændret ved hjælp af value.
+//Altså, bliver der skabt en kopi af "i", som der bliver sat til at være 2, og den bliver kopien så sat til at være "i".
