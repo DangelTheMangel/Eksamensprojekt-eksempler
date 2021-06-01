@@ -1,1 +1,15 @@
+//Som Anders sagde: “alle de steder hvor en kode ikke bare eksekveres linje efter linje - feks. loop.”
 
+
+//Dette  kunne fx være vis vi havde en funktion hvor efter hvad inputtet er kunne ændre outputtet
+
+int eksempel(int i){
+  if(i == 1){
+    i++;
+    println(i);
+  }else{
+    i = 1;
+    i = 1 + (int) random(2,7);
+  }
+  return i;
+}
