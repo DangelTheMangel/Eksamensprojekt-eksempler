@@ -1,1 +1,10 @@
+//Pseudokode er alt den kode der ikke ville kunne køre, men bruges til at forklare et koncept eller en ide indenfor programmering.
+//Pseudokode behøver knap nok at bestå af bogstaver.
+//Dette er et eksempel på pseudokode:
 
+//class LilleMand
+//float height
+
+//class LilleMandKarate extends LilleMand
+
+//class LilleMandFemboy extends LilleMand
