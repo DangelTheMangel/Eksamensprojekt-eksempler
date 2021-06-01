@@ -14,3 +14,6 @@ class Bi {
 //vi kan nu lave en instants kenneth
 //dette er en instans
 Bi kenneth = new Bi();
+
+
+
