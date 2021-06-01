@@ -1,1 +1,17 @@
+//Flowdiagram, eller flowchart er et diagram der bliver brugt i mange forstande, og skal visualisere en process.
+//I programmering bliver det også brugt, til blandt andet at vise et programs runtime, eller en bestemt handling programmet kan udføre.
 
+String ThomasFredfeldt = "Lækker";
+ThomasFredfeldt = "Meget Lækker";
+
+//Hvis man lavede et simpelt flowdiagram over den her process, kunne det se sådan her ud.
+
+-----------------------------
+|ThomasFredtfeldt = "Lækker"|
+-----------------------------
+              V
+----------------------------------
+|ThomasFredtfeldt = "MegetLækker"|
+----------------------------------
+
+//Et flowdiagram er meget fleksibelt, og der er ikke rigtigt nogen regler for det.
