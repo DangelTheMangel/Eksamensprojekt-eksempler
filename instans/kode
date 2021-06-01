@@ -1,1 +1,16 @@
+//En instans af et objekt, er et bestemt objekt, der befinder sig i programmet. Altså en enhed af bestemt klasse 
 
+//det kunne fx være klassen bi
+
+class Bi {
+  
+  Bi(){
+  
+  }
+
+}
+
+
+//vi kan nu lave en instants kenneth
+//dette er en instans
+Bi kenneth = new Bi();
