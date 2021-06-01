@@ -1,1 +1,5 @@
+//Man kan konvertere variabler
+//random() funktionen laver normalt et float, men hvis man vil runde det float op af en grund kan man konvertere det til et int.
 
+int i = int(random(1,5));
+print(i);
