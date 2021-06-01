@@ -1,1 +1,10 @@
+//Den måde man oftes fremstiller objekter på fra en klasse. 
+Kan have argumenter = variabler.
 
+class A {
+    
+    //dette er konstruktøren
+    A(){
+      //her ind kan du fx  give værdi tildele variablerne
+    }
+}
