@@ -1,5 +1,5 @@
 
-//I Java er variabler kun tilgængelige inden for den region, de oprettes. Dette kaldes omfang .
+//I Java er variabler kun tilgængelige inden for den region, de oprettes. Dette kaldes scope.
 
 public class Main {
   public static void main(String[] args) {
