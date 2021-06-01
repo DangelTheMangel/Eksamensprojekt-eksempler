@@ -1,1 +1,48 @@
+/*
+Java er et objektorienteret programmeringssprog.
 
+Alt i Java er forbundet med klasser og objekter sammen med dets attributter og metoder. For eksempel: i det virkelige liv er en bil et objekt. Bilen har attributter , såsom vægt og farve, og metoder , såsom kørsel og bremse.
+
+En klasse er som en objektkonstruktør eller et "blueprint" til oprettelse af objekter
+
+
+Opret en klasse
+For at oprette en klasse skal du bruge nøgleordet class:
+*/
+
+//Opret en klasse med navnet " Main" med en variabel x:
+public class Main {
+  int x = 5;
+}
+
+/*
+Opret et objekt
+I Java oprettes et objekt fra en klasse. Vi har allerede oprettet den navngivne klasse MyClass, så nu kan vi bruge denne til at oprette objekter.
+
+For at oprette et objekt af MyClassskal du angive klassens navn efterfulgt af objektnavnet og bruge nøgleordet new:
+*/
+
+//Eksempel
+//Opret et objekt kaldet " myObj" og udskriv værdien af x:
+
+public class Main {
+  int x = 5;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println(myObj.x);
+  }
+}
+
+//man kan altid lave flere
+
+public class Main {
+  int x = 5;
+
+  public static void main(String[] args) {
+    Main myObj1 = new Main();  // Object 1
+    Main myObj2 = new Main();  // Object 2
+    System.out.println(myObj1.x);
+    System.out.println(myObj2.x);
+  }
+}
