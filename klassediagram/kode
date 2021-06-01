@@ -1,1 +1,15 @@
 
+//I dette eksempel viser vi sammenhængend som der er i klasse digrammet under mappen
+
+Class A {
+
+}
+
+Class B extends A{
+C c;
+
+}
+
+Class C{
+
+}
