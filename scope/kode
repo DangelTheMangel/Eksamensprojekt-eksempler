@@ -1,1 +1,14 @@
 
+//I Java er variabler kun tilgængelige inden for den region, de oprettes. Dette kaldes omfang .
+
+public class Main {
+  public static void main(String[] args) {
+
+    // Kode her KAN IKKE bruge x
+
+    int x = 100;
+
+    // Kode her kan bruge x
+    System.out.println(x);
+  }
+}
